@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Магазин</div>
+            <div>
+                <a href="#cart">Корзина (<span id="cart-count">0</span>)</a>
+            </div>
+        </nav>
+    </header>
+    <main id="product-list"></main>
+    <div class="cart" id="cart">
+        <h2>Корзина</h2>
+        <div id="cart-items"></div>
+        <button onclick="checkout()">Оформить заказ</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
